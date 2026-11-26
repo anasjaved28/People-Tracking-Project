@@ -11,35 +11,19 @@ Real-time people counting system using YOLO11n and BoT-SORT with ReID to detect,
   2. **Live Feed:** Stream directly from a local webcam (`cv2.VideoCapture`).
 - **Interactive Controls:** Adjust detection confidence thresholds dynamically from the sidebar.
 
-## Project Structure
-
-```text
-├── app.py                # Streamlit frontend and tracking pipeline
-├── botsort_reid.yaml     # Custom BoT-SORT + ReID configuration
-├── yolo11n.pt            # Pre-trained YOLO11n weights
-├── requirements.txt      # Python dependencies
-└── README.md
-```
-
 ## Quick Start
 
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
-   ```
-
-2. **Install dependencies** (Python 3.10–3.12 recommended)
-
-   python -m venv .venv
-   source .venv/bin/activate
+1. **Create venv**
+    python -m venv .venv
+    source .venv/bin/activate
+   
+3. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Run the Streamlit app**
+4. **Run the Streamlit app**
    ```bash
    streamlit run app.py
    ```
