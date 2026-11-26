@@ -13,9 +13,9 @@ Real-time people counting system using YOLO11n and BoT-SORT with ReID to detect,
 
 ## Quick Start
 
-1. **Create venv**
-    python -m venv .venv
-    source .venv/bin/activate
+1. **Create venv** <br>
+    python -m venv .venv  <br>
+    source .venv/bin/activate  <br>
    
 3. **Install dependencies**
 
