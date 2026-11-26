@@ -1,0 +1,16 @@
+tracker_type: botsort
+track_high_thresh: 0.1
+track_low_thresh: 0.05
+new_track_thresh: 0.1
+track_buffer: 60 #Keeps a lost track alive in memory for 60 frames
+match_thresh: 0.7
+fuse_score: True
+
+# Camera motion compensation
+gmc_method: sparseOptFlow
+
+# Re-Identification (ReID) enabled
+proximity_thresh: 0.5
+appearance_thresh: 0.25
+with_reid: True #Enables Re-Identification
+model: auto
